@@ -1,0 +1,27 @@
+//css for Lab 14
+body {
+	background-color: black;
+}
+nav {
+    margin: 5px;
+    border: 1px solid silver;
+    padding: 15px;
+	background-color: black;
+}
+nav a {
+    color: white;
+	background-color: black;
+}
+nav a:hover {
+    text-decoration: none;
+	color: yellw;
+}
+
+main {
+    padding: 15px 5px;
+}
+main > div {
+    border: 1px solid silver;
+    padding: 15px;
+	background-color: black;
+}

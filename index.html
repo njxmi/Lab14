@@ -1,0 +1,26 @@
+<!-- html for Lab 14 -->
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <title>Lab 14 Cat-Dog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="myApp">
+    <nav>
+        <!-- The hrefs here change the #hash part of the URL.
+             They match with the $routeProvider.when items. -->
+        <a href="#!/cat">Cat photo</a>
+        <a href="#!/dog">Dog photo</a>
+    </nav>
+    <main>
+		<ng-view></ng-view>
+
+    </main>
+	<script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <!-- Include our JS files. We have to include each one here,
+         starting with the module definition file. -->
+    <script src="app.js"></script>
+    <script src="band-controller.js"></script>
+</body>
+</html>
