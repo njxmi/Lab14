@@ -1,9 +1,10 @@
 //app.js for Lab14
-(function() { // <-- It's an IIFE
-var myAppModule = angular.module('myApp', ["ngRoute"]);  // create the module
+var app = angular.module("wmyApp", []); // create the module
 
 // TODO Set up routing.
 app.config(function($routeProvider) {
+	
+
 	
 	// #!/cat --> cat.html views and someController???
 	$routeProvider.when("/cat", {
